@@ -1,0 +1,33 @@
+<!-- creating link or known as image map-->
+<!--
+firts insert image while inserting image note is pixels this pixels will be used for coordinates pixels are important
+then use <map> tag means name it so <map name= "my pass"
+in image tag add usemap="#my pass" 
+now add <area> tag for shape u have selected for link u may select or not
+for coordinates open image in paint to find out the area where u have to make link
+now add coords=x,y of left side and x,y of right side of rectangle or any shape
+now add web address via href==https
+on image where link is created mouse pointer arrrow will change to hand arrrow
+-->
+
+
+<!DOCTYPE html>
+<html>
+<body>
+    <img src="\html\IMAGE\pass.jpg" usemap="#my pass">
+    <map name="my pass">
+<area shape="rect" coords="1453,1364,2449,1557" href="https://id.nadra.gov.pk/">
+    </map>    
+
+    <img src="\html\IMAGE\pia.jpg" usemap="#my pia">
+    <map name="my pia">
+<area shape="rect" coords="17,665,281,2793" href="https://www.piac.com.pk/">
+    </map>
+
+    <img src="\html\IMAGE\pia.jpg" usemap="#my pia">
+    <map name="my pia">
+<coords="17,665,281,2793" href="https://www.piac.com.pk/">
+    </map>
+
+</body>
+</html>
